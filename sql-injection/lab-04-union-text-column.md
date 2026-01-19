@@ -17,9 +17,9 @@ The application is vulnerable to SQL injection, allowing attackers to use the UN
 
 ## Payload Used
 
+```sql
 UNION SELECT NULL,'text',NULL--
-
-
+```
 ---
 
 ## Technical Impact
